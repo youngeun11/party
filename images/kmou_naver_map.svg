@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%" style="border-radius: 16px; background: #c6e2ff;">
+  <!-- Sea / Ocean Water -->
+  <rect width="800" height="450" fill="#b9dcfe"/>
+  <path d="M0,280 C100,260 200,310 300,290 C400,270 500,320 600,300 C700,280 800,310 800,450 L0,450 Z" fill="#a4d1fd" opacity="0.6"/>
+
+  <!-- KMOU Jodo Island Landmass -->
+  <path d="M220,450 Q200,320 260,220 T420,130 T640,160 T760,300 T780,450 Z" fill="#f5f4f0" stroke="#d5d3ce" stroke-width="3"/>
+  <path d="M280,240 Q350,170 480,160 T680,230 T740,360 Z" fill="#e9e8e2" opacity="0.7"/>
+
+  <!-- CauseWay / Arch Bridge Road from mainland -->
+  <path d="M0,320 Q120,290 240,265" fill="none" stroke="#ffffff" stroke-width="12"/>
+  <path d="M0,320 Q120,290 240,265" fill="none" stroke="#f59e0b" stroke-width="8"/>
+  <path d="M0,320 Q120,290 240,265" fill="none" stroke="#ffffff" stroke-dasharray="6 6" stroke-width="2"/>
+
+  <!-- Campus Green Area / Athletic Track Field -->
+  <rect x="360" y="210" width="180" height="110" rx="20" fill="#a8e6cf" stroke="#81c784" stroke-width="3"/>
+  <ellipse cx="450" cy="265" rx="70" ry="38" fill="#c8e6c9" stroke="#4caf50" stroke-width="4"/>
+  <rect x="420" y="250" width="60" height="30" fill="#ffffff" rx="4" opacity="0.9"/>
+  <text x="450" y="270" font-family="'Noto Sans KR', sans-serif" font-size="12" font-weight="900" fill="#2e7d32" text-anchor="middle">대운동장 (축제장)</text>
+
+  <!-- Campus Main Roads -->
+  <path d="M240,265 Q330,250 450,195 T640,220 T700,320" fill="none" stroke="#ffffff" stroke-width="8"/>
+  <path d="M450,195 L450,340 L580,340" fill="none" stroke="#ffffff" stroke-width="7"/>
+
+  <!-- Campus Building Blocks -->
+  <rect x="290" y="180" width="55" height="35" rx="4" fill="#e0e0e0" stroke="#bdbdbd" stroke-width="2"/>
+  <text x="317" y="202" font-family="sans-serif" font-size="10" fill="#616161" text-anchor="middle">본관</text>
+
+  <rect x="500" y="155" width="70" height="35" rx="4" fill="#e0e0e0" stroke="#bdbdbd" stroke-width="2"/>
+  <text x="535" y="177" font-family="sans-serif" font-size="10" fill="#616161" text-anchor="middle">해양대 기숙사</text>
+
+  <rect x="560" y="220" width="80" height="40" rx="4" fill="#e0e0e0" stroke="#bdbdbd" stroke-width="2"/>
+  <text x="600" y="244" font-family="sans-serif" font-size="10" fill="#616161" text-anchor="middle">체육관</text>
+
+  <!-- NAVER MAP TOP SEARCH HEADER -->
+  <rect x="20" y="20" width="420" height="52" rx="8" fill="#ffffff" filter="drop-shadow(0px 4px 10px rgba(0,0,0,0.15))"/>
+  
+  <!-- Naver Logo 'N' Badge -->
+  <rect x="32" y="31" width="30" height="30" rx="4" fill="#03c75a"/>
+  <text x="47" y="53" font-family="sans-serif" font-weight="900" font-size="20" fill="#ffffff" text-anchor="middle">N</text>
+  
+  <text x="75" y="44" font-family="'Noto Sans KR', sans-serif" font-weight="800" font-size="14" fill="#0f172a">한국해양대학교 조도캠퍼스</text>
+  <text x="75" y="60" font-family="'Noto Sans KR', sans-serif" font-size="11" fill="#03c75a" font-weight="700">네이버 지도 공식 등록 장소</text>
+
+  <!-- NAVER MAP GREEN PIN MARKER -->
+  <g transform="translate(450, 235)">
+    <!-- Pulse ring animation around pin -->
+    <circle cx="0" cy="0" r="28" fill="#03c75a" opacity="0.25">
+      <animate attributeName="r" values="18;36;18" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.1;0.4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Shadow -->
+    <ellipse cx="0" cy="18" rx="14" ry="5" fill="#000000" opacity="0.3"/>
+    
+    <!-- Marker Icon -->
+    <path d="M 0,-38 C -16,-38 -24,-24 -24,-8 C -24,12 0,22 0,22 C 0,22 24,12 24,-8 C 24,-24 16,-38 0,-38 Z" fill="#03c75a" stroke="#ffffff" stroke-width="2.5"/>
+    <circle cx="0" cy="-14" r="8" fill="#ffffff"/>
+    <circle cx="0" cy="-14" r="4" fill="#03c75a"/>
+
+    <!-- Tooltip Box -->
+    <rect x="-110" y="-82" width="220" height="36" rx="6" fill="#032b56" stroke="#03c75a" stroke-width="2" filter="drop-shadow(0 4px 10px rgba(0,0,0,0.3))"/>
+    <text x="0" y="-60" font-family="'Noto Sans KR', sans-serif" font-weight="900" font-size="12" fill="#ffffff" text-anchor="middle">📍 한국해양대 대운동장 축제장</text>
+  </g>
+
+  <!-- NAVER MAP UI CONTROLS (ZOOM & MAP TYPE) -->
+  <g transform="translate(740, 20)">
+    <rect x="0" y="0" width="36" height="76" rx="6" fill="#ffffff" stroke="#e0e0e0" stroke-width="1.5" filter="drop-shadow(0 2px 6px rgba(0,0,0,0.1))"/>
+    <text x="18" y="28" font-family="sans-serif" font-weight="900" font-size="20" fill="#333333" text-anchor="middle">+</text>
+    <line x1="6" y1="38" x2="30" y2="38" stroke="#eeeeee" stroke-width="1"/>
+    <text x="18" y="62" font-family="sans-serif" font-weight="900" font-size="22" fill="#333333" text-anchor="middle">-</text>
+  </g>
+
+  <!-- MAP WATERMARK / SCALE -->
+  <rect x="20" y="405" width="140" height="26" rx="4" fill="rgba(255,255,255,0.9)" />
+  <text x="30" y="422" font-family="'Noto Sans KR', sans-serif" font-weight="700" font-size="11" fill="#03c75a">NAVER</text>
+  <text x="75" y="422" font-family="sans-serif" font-size="10" fill="#666666">지도 | 100m</text>
+</svg>
